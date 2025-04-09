@@ -69,7 +69,7 @@ var overlayPopup = new ol.Overlay({
 });
 
 var expandedAttribution = new ol.control.Attribution({
-    collapsible: false
+    collapsible: true
 });
 
 var map = new ol.Map({

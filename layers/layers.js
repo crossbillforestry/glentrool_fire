@@ -8,7 +8,9 @@ var wms_layers = [];
             
             
             source: new ol.source.XYZ({
-    attributions: ' &middot; <a href="https://www.openstreetmap.org/copyright">© OpenStreetMap contributors, CC-BY-SA</a>',
+    attributions: ' &middot; <a href="https://www.openstreetmap.org/copyright">© OpenStreetMap contributors, CC-BY-SA</a><br />\
+    <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Contains public sector information licensed under the Open Government Licence v3.0</a><br />\
+    <a href="https://spatialdata.gov.scot/geonetwork/srv/eng/catalog.search#/metadata/4ea30596-8d2c-4be7-a5c3-ecd4fc580a3b">Reproduced by Permission of Ordnance Survey on behalf of HMSO.<br/>© Crown copyright and database right 2025. Ordnance Survey Licence number 100021242</a>',
                 url: 'http://tile.openstreetmap.org/{z}/{x}/{y}.png'
             })
         });
